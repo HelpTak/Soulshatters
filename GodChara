@@ -1,31 +1,6 @@
--- TEST OP SCRIPT --
-
-local Frame = Instance.new("Frame")
-local HealthLabel = Instance.new("TextLabel")
-local PName = Instance.new("TextLabel")
-local rep = game:GetService("ReplicatedStorage")
-local uis = game:GetService("UserInputService")
-local plrs = game:GetService("Players")
-local runS = game:GetService("RunService")
-local tweenS = game:GetService("TweenService")
-local v21 = require(game:GetService("ReplicatedStorage").ClientModules.MainModule);
-local remotes = rep:WaitForChild("Remotes")
-local damage = remotes:WaitForChild("Damage")
-local functions = remotes:WaitForChild("Functions")
-local events = remotes:WaitForChild("Events")
-local LoseMoves = remotes:WaitForChild("CharaMoves")
-local main
-local plr = plrs.LocalPlayer
-local plrGui = plr:WaitForChild("PlayerGui")
-local mouse = plr:GetMouse()
-local player = game.Players.LocalPlayer
-local Players = game:GetService("Players")
-local rs = game:GetService("RunService")
-local TweenService = game:GetService("TweenService")
-local userInputService = game:GetService("UserInputService")
-local plrs = game:GetService("Players")
-local plr = plrs.LocalPlayer
-local plrGui = plr:WaitForChild("PlayerGui")
+/-- God Chara --\
+|-- Dont Skid --|
+\-- Use For Fun--/
 
     game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, true)
     game.ReplicatedStorage.Remotes.Functions:InvokeServer({getrenv()._G.Pass,"ChangeSetting","MorphEnabled",true})
@@ -34,7 +9,7 @@ local plrGui = plr:WaitForChild("PlayerGui")
 game.Players.LocalPlayer.Character.Head:WaitForChild("HealthBar"):Destroy()
 game.Players.LocalPlayer.Backpack:WaitForChild("Main").CharaMoves.Animations.Walk.AnimationId = "rbxassetid://5658603994"
 game.Players.LocalPlayer.Backpack:WaitForChild("Main").CharaMoves.Animations.Idle.AnimationId = "rbxassetid://4900761581"
-game.Players.LocalPlayer.Backpack:WaitForChild("Main").CharaMoves.Animations.Run.AnimationId = "rbxassetid://5657151699"
+game.Players.LocalPlayer.Backpack:WaitForChild("Main").CharaMoves.Animations.Run.AnimationId = "rbxassetid://4576074471"
 game.Players.LocalPlayer.Backpack:WaitForChild("Main").CharaMoves.Animations.Block.AnimationId = "rbxassetid://4088050522"
 wait(9)
 local v1 = {
