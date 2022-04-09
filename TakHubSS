@@ -1,0 +1,42 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Tak Hub's Soulshatters", "Synapse")
+
+local OS = Window:NewTab("OP Stuffs")
+local CTC = OS:NewSection("Custom Characters")
+local UTFrisk = Window:NewTab("UT!Frisk Modules")
+local UTFriskMisc = UTFrisk:NewSection("UT!Frisk Modules")
+CTC:NewButton("God Chara V2", "Every Move Damage Is Nan", function()
+    loadstring(
+            game:HttpGet("https://raw.githubusercontent.com/HelpTak/Soulshatters/main/GodChara", true)
+        )()
+end)
+CTC:NewButton("X-Gaster", "M For AutoBlock", function()
+    loadstring(
+            game:HttpGet("https://raw.githubusercontent.com/HelpTak/Soulshatters/main/X-Gaster", true)
+        )()
+end)
+
+UTFriskMisc:NewButton("Max Level", "Execute on UT Frisk When Have Forcefield", function()
+    local v1 = {
+        [1] = getrenv()._G.Pass, 
+        [2] = "Damage", 
+        [3] = math.huge, 
+        [4] = game.Players.LocalPlayer.Character
+    }
+    local event = game:GetService("ReplicatedStorage").Remotes.Events
+    event:FireServer(v1)
+end)
+
+UTFriskMisc:NewButton("Max Level ( Target )", "Lock On Someone That UTFrisk And Press", function()
+    local args = {
+        [1] = {
+            [1] = getrenv()._G.Pass,
+            [2] = "Damage",
+            [3] = math.huge,
+            [4] = game.Players.LocalPlayer.Backpack.Main.LockOnScript.LockOn.Value
+        }
+    }
+
+    game:GetService("ReplicatedStorage").Remotes.Events:FireServer(unpack(args))
+end)
