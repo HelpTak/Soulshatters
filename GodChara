@@ -8,6 +8,7 @@ game.Players.LocalPlayer.Backpack:WaitForChild("Main").CharaMoves.Animations.Wal
 game.Players.LocalPlayer.Backpack:WaitForChild("Main").CharaMoves.Animations.Idle.AnimationId = "rbxassetid://4900761581"
 game.Players.LocalPlayer.Backpack:WaitForChild("Main").CharaMoves.Animations.Run.AnimationId = "rbxassetid://4576074471"
 game.Players.LocalPlayer.Backpack:WaitForChild("Main").CharaMoves.Animations.Block.AnimationId = "rbxassetid://4088050522"
+game.Players.LocalPlayer.Character.Head.Voice.SoundID = "rbxassetid://4630736961"
 wait(9)
 local v1 = {
     [1] = getrenv()._G.Pass, 
