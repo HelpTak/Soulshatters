@@ -72,17 +72,17 @@ game.Workspace.ServerEffects.ServerCooldown:Destroy()
 
 local CurrentCharacter = game:GetService("Players").LocalPlayer.PlayerData.CurrentCharacter.Value
 
-game:GetService("Players").LocalPlayer.Backpack.Main[CurrentCharacter.."Moves"].ModuleScript.Animations.BladesCombat.Light1.AnimationId = "rbxassetid://5776230796"
+game:GetService("Players").LocalPlayer.Backpack.Main[CurrentCharacter.."Moves"].ModuleScript.Animations.BladesCombat.Light1.AnimationId = "rbxassetid://4456890962"
 
-game:GetService("Players").LocalPlayer.Backpack.Main[CurrentCharacter.."Moves"].ModuleScript.Animations.BladesCombat.Light2.AnimationId = "rbxassetid://5776233108"
+game:GetService("Players").LocalPlayer.Backpack.Main[CurrentCharacter.."Moves"].ModuleScript.Animations.BladesCombat.Light2.AnimationId = "rbxassetid://4456894133"
 
-game:GetService("Players").LocalPlayer.Backpack.Main[CurrentCharacter.."Moves"].ModuleScript.Animations.BladesCombat.Light3.AnimationId = "rbxassetid://5941488749"
+game:GetService("Players").LocalPlayer.Backpack.Main[CurrentCharacter.."Moves"].ModuleScript.Animations.BladesCombat.Light3.AnimationId = "rbxassetid://4348287123"
 
-game:GetService("Players").LocalPlayer.Backpack.Main[CurrentCharacter.."Moves"].ModuleScript.Animations.BladesCombat.Light4.AnimationId = "rbxassetid://5776238345"
+game:GetService("Players").LocalPlayer.Backpack.Main[CurrentCharacter.."Moves"].ModuleScript.Animations.BladesCombat.Light4.AnimationId = "rbxassetid://4348301706"
 
-game:GetService("Players").LocalPlayer.Backpack.Main[CurrentCharacter.."Moves"].ModuleScript.Animations.BladesCombat.Light5.AnimationId = "rbxassetid://5776240672"
+game:GetService("Players").LocalPlayer.Backpack.Main[CurrentCharacter.."Moves"].ModuleScript.Animations.BladesCombat.Light5.AnimationId = "rbxassetid://5776258610"
 
-game:GetService("Players").LocalPlayer.Backpack.Main[CurrentCharacter.."Moves"].ModuleScript.Animations.BladesCombat.Light6.AnimationId = "rbxassetid://4348788816"
+game:GetService("Players").LocalPlayer.Backpack.Main[CurrentCharacter.."Moves"].ModuleScript.Animations.BladesCombat.Light6.AnimationId = "rbxassetid://4456901030"
 
 local args = {
     [1] = {
