@@ -163,7 +163,7 @@ local part = PName
             Enum.EasingDirection.InOut,       --Easing Direction
             -1,                             --Times Repeated
             true,                           --reversed
-            0                               --deşau
+            0                               --deşa
             )
             
         local Goals = {
